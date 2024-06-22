@@ -1,16 +1,16 @@
-#Facility Location Optimization Project
+# Facility Location Optimization Project
 
-##Overview
+## Overview
 This project focuses on optimizing the placement of ATMs to maximize accessibility for clients using various optimization algorithms. The problem is formulated as a Quadratic Unconstrained Binary Optimization (QUBO) and solved using different solvers like ExactSolver, SimulatedAnnealing, DWaveSampler, CQM, and QAOA.
 
-##Features
+## Features
 Random Position Assignment: Assigns random geographic positions to ATMs and clients.
 Profit Calculation: Assigns profits to clients based on a normal distribution.
 QUBO Matrix Construction: Constructs a QUBO matrix for optimization.
 Distance Calculations: Computes Euclidean distances between ATMs and clients.
 Solver Implementations: Implements several solvers to find the optimal placement of ATMs.
 Plotting: Visualizes the distribution of ATMs and clients, and the optimal ATM locations.
-##Usage
+## Usage
 Function: FacilityLocation
 Parameters:
 
