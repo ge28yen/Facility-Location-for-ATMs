@@ -33,6 +33,5 @@ Running the Function
 Example:
 
 ```python
-Copy code
 result = FacilityLocation(19, 1000, 0.20, 0.7, 'ExactSolver', 1, 5)
 ```
