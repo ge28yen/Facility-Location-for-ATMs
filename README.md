@@ -12,12 +12,12 @@ Solver Implementations: Implements several solvers to find the optimal placement
 Plotting: Visualizes the distribution of ATMs and clients, and the optimal ATM locations.
 ## Usage
 Function: FacilityLocation
-Parameters:
+Parameters:  
 
-n_atms: Number of ATMs
-n_clients: Number of clients
-radio_clients: Radius of client influence
-radio_atms: Radius of ATM influence
+n_atms: Number of ATMs  
+n_clients: Number of clients  
+radio_clients: Radius of client influence  
+radio_atms: Radius of ATM influence  
 solver: Solver type (ExactSolver, SimulatedAnnealing, DWaveSampler, CQM, QAOA)
 lambda1: Constraint strength parameter 1
 lambda2: Constraint strength parameter 2
