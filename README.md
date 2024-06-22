@@ -18,18 +18,18 @@ n_atms: Number of ATMs
 n_clients: Number of clients  
 radio_clients: Radius of client influence  
 radio_atms: Radius of ATM influence  
-solver: Solver type (ExactSolver, SimulatedAnnealing, DWaveSampler, CQM, QAOA)
-lambda1: Constraint strength parameter 1
-lambda2: Constraint strength parameter 2
-p: Parameter for QAOA (default is 1)
-Returns:
+solver: Solver type (ExactSolver, SimulatedAnnealing, DWaveSampler, CQM, QAOA)  
+lambda1: Constraint strength parameter 1  
+lambda2: Constraint strength parameter 2  
+p: Parameter for QAOA (default is 1)  
+Returns:  
 
-Distances between clients and ATMs
-Distances between ATMs
-Solution details
-Optimal ATM locations
-Profits
-Running the Function
+Distances between clients and ATMs  
+Distances between ATMs  
+Solution details  
+Optimal ATM locations  
+Profits  
+## Running the Function
 Example:
 
 ```python
